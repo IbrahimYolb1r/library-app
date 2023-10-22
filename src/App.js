@@ -86,7 +86,7 @@ function App() {
         <Route
           path="/books/:id"
           render={() => (
-            <BookInfo books={books} addItemToCart={addItemToCart} />
+            <BookInfo books={books} addItemToCart={addItemToCart}/>
           )}
         />
         <Route
